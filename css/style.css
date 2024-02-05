@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 243px 157px 244px 179px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.form h1 {
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.75px;
+    margin-bottom: 20px;
+}
+
+.form p {
+    color: rgba(79, 79, 79, 0.80);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 41px;
+}
+
+.input1 {
+    width: 385px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #CACACA;
+    background: #FFF;
+    box-shadow: 2px 4px 6px 0px rgba(79, 79, 79, 0.15);
+    margin-bottom: 26px;
+
+}
+
+.input {
+    width: 385px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #CACACA;
+    background: #FFF;
+    box-shadow: 2px 4px 6px 0px rgba(79, 79, 79, 0.15);
+    margin-bottom: 24px;
+}
+
+.form-text {
+    width: 403px;
+    color: #4F4F4F;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: start !important;
+}
+
+.form-btn {
+    width: 384px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #CCC;
+    background: #03A9F4;
+    box-shadow: 2px 4px 6px 0px rgba(79, 79, 79, 0.15);
+    border: none;
+}
+
+.form-btn a {
+    width: 52px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bg {
+    position: absolute;
+    background-image: url("../img/Group\ 21.svg");
+    background-repeat: no-repeat;
+    width: 141px;
+    height: 147px;
+    right:0px;
+    top: -6px;
+}
+
+.bc {
+    position: absolute;
+    background-image: url("../img/Group\ 21.svg");
+    background-repeat: no-repeat;
+    width: 141px;
+    height: 147px;
+    left: 0;
+    bottom: -10px;
+}
